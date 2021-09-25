@@ -1,4 +1,4 @@
-package collection-framework;
+package collectionframework;
 
 public class MyLinkedList {
     int size;
