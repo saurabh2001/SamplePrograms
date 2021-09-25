@@ -1,7 +1,5 @@
 package collection-framework;
 
-import java.util.Objects;
-
 public class MyLinkedList {
     int size;
     Node head;
@@ -63,5 +61,21 @@ public class MyLinkedList {
                     ", next=" + next +
                     '}';
         }
+    }
+
+    public static void main(String[] args) {
+
+        MyLinkedList list = new MyLinkedList();
+        list.addToEnd("A");
+        list.addToEnd("D");
+        list.addToEnd("B");
+        list.print();
+
+        MyLinkedList list1 = new MyLinkedList();
+        list1.addToStart("A");
+        list1.addToStart("D");
+        list1.addToStart("B");
+        list1.print();
+
     }
 }
