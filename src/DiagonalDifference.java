@@ -6,9 +6,7 @@ import java.util.Scanner;
 public class DiagonalDifference {
     public static void main(String[] args) {
         /*
-         * Program to find the number of pair of socks
-         * each number in the array represents the color of the socks
-         * e.g. For array [1],2,3,4,5], [1,2,4] and [2,5] are valid subsequences
+         * Program to find the difference between diagonal elements
          * */
         int n, diagonal1 = 0, diagonal2 = 0;
         Scanner in=new Scanner(System.in);
