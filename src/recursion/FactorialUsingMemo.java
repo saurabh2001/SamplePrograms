@@ -30,8 +30,12 @@ public class FactorialUsingMemo {
         * Factorial: factorial of 5 is 5*4*3*2*1 = 120
         * Instead of int you can use Long if the value is  going to be tvery big
         * */
+        long startTime = System.currentTimeMillis();
+
         FactorialUsingMemo fact = new FactorialUsingMemo();
-        System.out.println(fact.factorial(4));
-        System.out.println(fact.factorial(5)); // while calculating this it will pick the fact of 4 from memo
+        System.out.println("Fact of 4: "+ fact.factorial(4));
+        System.out.println("Fact of 30: " + fact.factorial(30)); // while calculating this it will pick the fact of 4 from memo
+        long endTime = System.currentTimeMillis();
+        System.out.println("Time taken (ms): "+ (endTime - startTime));
     }
 }
