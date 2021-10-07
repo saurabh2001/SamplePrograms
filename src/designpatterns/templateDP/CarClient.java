@@ -1,4 +1,4 @@
-package designpatterns.template;
+package designpatterns.templateDP;
 
 public class CarClient {
     public static void main(String[] args) {

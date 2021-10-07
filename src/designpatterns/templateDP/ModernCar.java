@@ -1,4 +1,4 @@
-package designpatterns.template;
+package designpatterns.templateDP;
 
 public class ModernCar extends CarTemplate{
     @Override

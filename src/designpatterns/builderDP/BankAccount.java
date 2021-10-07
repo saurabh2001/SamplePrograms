@@ -1,4 +1,4 @@
-package designpatterns.builder;
+package designpatterns.builderDP;
 
 public class BankAccount {
     private long accountNumber; // this is mandatory

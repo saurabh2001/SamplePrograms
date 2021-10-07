@@ -1,4 +1,4 @@
-package designpatterns.singleton.lazy;
+package designpatterns.singletonDP.lazy;
 
 public class LazySingleton {
     // lazy initialization

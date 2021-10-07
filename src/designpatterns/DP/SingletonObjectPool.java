@@ -1,4 +1,4 @@
-package designpatterns.objectpool;
+package designpatterns.DP;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ThreadLocalRandom;

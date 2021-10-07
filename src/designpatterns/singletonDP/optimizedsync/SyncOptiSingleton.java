@@ -1,4 +1,4 @@
-package designpatterns.singleton.optimizedsync;
+package designpatterns.singletonDP.optimizedsync;
 
 public class SyncOptiSingleton {
     // lazy initialization

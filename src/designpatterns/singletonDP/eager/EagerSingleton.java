@@ -1,4 +1,4 @@
-package designpatterns.singleton.eager;
+package designpatterns.singletonDP.eager;
 
 public class EagerSingleton {
     // eager initialization

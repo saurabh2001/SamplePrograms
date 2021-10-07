@@ -1,4 +1,4 @@
-package designpatterns.singleton.sync;
+package designpatterns.singletonDP.sync;
 
 public class LazySyncSingletonClient {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package designpatterns.template;
+package designpatterns.templateDP;
 
 public abstract class CarTemplate {
     private String chassis;
