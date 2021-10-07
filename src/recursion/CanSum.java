@@ -28,7 +28,7 @@ public class CanSum {
 
         if (map.containsKey(targetSum)) {
             System.out.println("pulling from memo: " + targetSum);
-            return (boolean) map.get(targetSum);
+            return map.get(targetSum);
         }
 
 
