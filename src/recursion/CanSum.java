@@ -50,6 +50,7 @@ public class CanSum {
 
             if(canSumFlag) return true;
         }
+        map.put(targetSum, false);
         return false;
     }
 }
