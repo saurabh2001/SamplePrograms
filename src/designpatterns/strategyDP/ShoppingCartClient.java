@@ -1,6 +1,6 @@
 package designpatterns.strategyDP;
 
-public class ShoppingCartMain {
+public class ShoppingCartClient {
     public static void main(String[] args) {
         // Thank you, https://www.journaldev.com/1754/strategy-design-pattern-in-java-example-tutorial
         ShoppingCart cart = new ShoppingCart();
