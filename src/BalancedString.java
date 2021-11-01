@@ -2,6 +2,7 @@ import java.util.HashMap;
 import java.util.Stack;
 
 public class BalancedString {
+    // Ref: https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
     public static void main(String[] args) {
         HashMap<String,String> map = new HashMap<>();
         map.put("{","}");
